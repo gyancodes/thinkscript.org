@@ -2,11 +2,10 @@
 
 Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
-## 👨‍💻 Demo
 
 Visit: https://thikscript.org/
 
-![logo](https://user-images.githubusercontent.com/42698533/213821314-83a4c231-f480-4cac-b24c-452a7fa0dda5.png)
+![logo](https://user-images.githubusercontent.com/42698533/213821314-83a4c231-f480-4cac-b24c-452a7fa0dda5.png
 
 ## What is ThinkScript?
 
@@ -51,6 +50,4 @@ Before starting out, you'll need to install the following on your computer.
 4. Run `npm start` to start the application
 5. Visit `https://localhost:3000` to view the application
 
-## Thanks to all the contributors ❤️
 
-<img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
