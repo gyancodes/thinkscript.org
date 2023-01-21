@@ -2,12 +2,12 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const navigation = [
   { name: "About", link: "/about" },
-  { name: "Contact", link: "#" },
-  { name: "Team", link: "#" },
+  { name: "Contact", link: "/contact" },
+  { name: "Team", link: "/team" },
 ];
 
 export default function Header() {
@@ -70,13 +70,14 @@ export default function Header() {
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
               {navigation.map((item) => (
-                <a
+
+                <Link
                   key={item.name}
-                  href={item.link}
+                  to={item.link}
                   className="font-semibold text-gray-900 hover:text-gray-900"
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
             {/* <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
