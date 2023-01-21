@@ -95,16 +95,16 @@ export default function Header() {
             >
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
-
-
-                  <a href="#" className="-m-1.5 p-1.5">
-                    <span className="sr-only">thinkscript</span>
+                  <Link to="/" className="-m-1.5 p-1.5">
+                  <span className="sr-only">thinkscript</span>
                     <img
                       className="h-10"
                       src="./images/thinkscript.png"
                       alt=""
                     />
-                  </a>
+                  </Link>
+
+
                 </div>
                 <div className="flex">
                   <button
