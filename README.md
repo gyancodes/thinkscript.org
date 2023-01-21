@@ -1,6 +1,6 @@
 # ThinkScript
 
-We open source community aim to help begineers to get started into open source. We also provides mentorship to help individuals develop practical skills through hand-on learning experiences. We also conduct <b>Hackathon, Events and Workshops</b>.
+We open source community aim to help beginners to get started into open source. We also provides mentorship to help individuals develop practical skills through hand-on learning experiences. We also conduct <b>Hackathon, Events and Workshops</b>.
 
 Visit: https://thikscript.org/
 
