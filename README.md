@@ -1,32 +1,25 @@
 # ThinkScript
 
-Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
-
+We open source community aim to help begineers to get started into open source. We also provides mentorship to help individuals develop practical skills through hand-on learning experiences. We also conduct <b>Hackathon, Events and Workshops</b>.
 
 Visit: https://thikscript.org/
 
-![logo](https://user-images.githubusercontent.com/42698533/213821314-83a4c231-f480-4cac-b24c-452a7fa0dda5.png
 
-## What is ThinkScript?
+![logo](https://user-images.githubusercontent.com/61907167/213868177-3a9d2a60-ce0c-4120-be91-419c9f13a563.png)
 
-We believe that everyone, irrespective of their college or branch, technical or non-technical background can make it big. WeMakeDevs is an initiative built on this thought.
 
-## What stack is ThinkScript built on?
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## What we provide?
+## Our Tech stack 
 
-Education
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 
-Events
 
-Mentorship
+
 
 ## 🚀 Getting Started
 
