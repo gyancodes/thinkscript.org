@@ -1,6 +1,6 @@
 # ThinkScript
 
-We open source community aim to help begineers to get started into open source. We also provides mentorship to help individuals develop practical skills through hand-on learning experiences. We also conduct <b>Hackathon, Events and Workshops</b>.
+We, as open source community, want to help newcomers get started with open source. We also offer mentorship to individuals in order to assist them acquire practical skills through hands-on learning experiences. In addition, we organize Hackathons, Events, and Workshops.
 
 Visit: https://thikscript.org/
 
@@ -10,7 +10,7 @@ Visit: https://thikscript.org/
 
 
 
-## Our Tech stack 
+## Our Tech stack
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>

@@ -2,10 +2,10 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "About", link: "/about" },
+  { name: "About", link: "#about" },
   { name: "Contact", link: "/contact" },
   { name: "Team", link: "/team" },
 ];
@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <div className="isolate bg-white">
-      <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
+      <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-10rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
           viewBox="0 0 1155 678"
@@ -70,7 +70,6 @@ export default function Header() {
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
               {navigation.map((item) => (
-
                 <Link
                   key={item.name}
                   to={item.link}
@@ -97,15 +96,13 @@ export default function Header() {
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
                   <Link to="/" className="-m-1.5 p-1.5">
-                  <span className="sr-only">thinkscript</span>
+                    <span className="sr-only">thinkscript</span>
                     <img
                       className="h-10"
                       src="./images/thinkscript.png"
                       alt=""
                     />
                   </Link>
-
-
                 </div>
                 <div className="flex">
                   <button
@@ -165,7 +162,11 @@ export default function Header() {
                   Think Different Think Script
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                  We are an open source organization
+                  We, as open source community, want to help newcomers get
+                  started with open source. We also offer mentorship to
+                  individuals in order to assist them acquire practical skills
+                  through hands-on learning experiences. In addition, we
+                  organize Hackathons, Events, and Workshops..
                 </p>
                 {/* <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
