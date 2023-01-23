@@ -91,7 +91,7 @@ export default function Header() {
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <Dialog.Panel
               focus="true"
-              className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden"
+              className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden"
             >
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
@@ -122,7 +122,7 @@ export default function Header() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                        className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-purple-600"
                       >
                         {item.name}
                       </a>
@@ -144,7 +144,7 @@ export default function Header() {
       </div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+          <div className="mx-auto max-w-3xl pt-20 pb- sm:pt-48 ">
             <div>
               {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -158,7 +158,7 @@ export default function Header() {
                 </div>
               </div> */}
               <div>
-                <h1 className="text-4xl  sm:text-center sm:text-8xl font-extrabold text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal">
+                <h1 className="text-4xl  sm:text-center sm:text-8xl font-extrabold text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
                   Think Different Think Script
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">

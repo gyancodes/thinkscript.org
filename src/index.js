@@ -6,15 +6,18 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import About from "./components/pages/About";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Header />
+    <About  />
 
     <Routes>
       <Route path="/" element={<App />} />
+      {/* <Route exact path="#about" element={<About/>}/> */}
 
     </Routes>
     <Footer />
