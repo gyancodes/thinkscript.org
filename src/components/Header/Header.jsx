@@ -5,7 +5,7 @@ export default function Header() {
 
 
   return (
-    <div className="mb-48">
+    <div className="mb-24 sm:mb-48">
       <div className=" ">
         <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-10rem]">
           <svg
