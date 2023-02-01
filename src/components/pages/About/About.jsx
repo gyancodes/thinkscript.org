@@ -2,14 +2,24 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="container  w-full h-full ">
-      {/* <div className="flex flex-col   py-40 justify-center items-center  mr-32 ml-32 ">
-        <h1 className="text-3xl  sm:text-center sm:text-8xl font-extrabold text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal">
-          About Us
-        </h1>
-        <img src="./images/teambg.png" className="w-full mt-10 sm:mt-28" alt="" />
-      </div> */}
-      <img src="./images/teambg.png" className="w-full mt-10 sm:mt-28" alt="" />
+    <div className="flex justify-center items-center w-full h-full ">
+      <div className="flex gap-14 items-center mt-36 mb-36 ">
+        <div className="flex flex-col justify-center items-center ">
+          <img src="./images/image.jpg" className="rounded-full h-60" alt="" />
+          <h1 className="font-bold">Founder</h1>
+          <h1 className="font-bold">Gyan Prakash Tiwari</h1>
+        </div>
+        <div className="flex flex-col justify-center items-center ">
+          <img src="./images/image.jpg" className="rounded-full h-60" alt="" />
+          <h1 className="font-bold">Founder</h1>
+          <h1 className="font-bold">Gyan Prakash Tiwari</h1>
+        </div>
+        <div className="flex flex-col justify-center items-center ">
+          <img src="./images/image.jpg" className="rounded-full h-60" alt="" />
+          <h1 className="font-bold">Founder</h1>
+          <h1 className="font-bold">Gyan Prakash Tiwari</h1>
+        </div>
+      </div>
     </div>
   );
 };

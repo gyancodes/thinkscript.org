@@ -64,7 +64,7 @@ const Navbar = () => {
       <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <Dialog.Panel
           focus="true"
-          className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden"
+          className="fixed inset-0 z-10 overflow-y-auto backdrop-blur-lg bg-black/70  px-6 py-6 lg:hidden"
         >
           <div className="flex h-9 items-center justify-between">
             <div className="flex">
@@ -80,7 +80,7 @@ const Navbar = () => {
             <div className="flex">
               <button
                 type="button"
-                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -95,7 +95,7 @@ const Navbar = () => {
                   <a
                     key={item.name}
                     href={item.link}
-                    className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-purple-600"
+                    className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500"
                   >
                     {item.name}
                   </a>
