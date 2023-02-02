@@ -1,97 +1,138 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
   return (
-  <>
-             <div>
-                  <h1 className="text-4xl mt-24 mb- 10 sm:text-center sm:text-8xl font-medium text-transparent 
-                   bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
-                    Contact us at ...
-                  </h1>
-                  <p className="mt-6 mb-10 text-lg leading-8 text-gray-600 sm:text-center">
-                    You can contact with us if you want to join us and host hackathons,talks and events.
-                    Let's grow together!
-                  </p>
-             </div>
+    <>
+    <div className="bg-gradient-to-r from-rose-100 to-teal-100 mt-4 pb-10">
 
-        
 
-        <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-col justify-center items-center mt-24 mb-24 ">
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
+      <div className="p-4 ">
+        <h1
+          className="text-4xl mt-24 mb- 10 sm:text-center sm:text-8xl font-medium text-transparent
+                   bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal "
+        >
+          Contact us at ...
+        </h1>
+        <p className="mt-6 mb-10 text-lg leading-8 text-gray-600 sm:text-center">
+          You can contact with us if you want to join us and host
+          hackathons,talks and events. Let's grow together!
+        </p>
+      </div>
+
+
+        <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-col justify-center items-center mt-10 mb-14 ">
+          <div className="flex flex-col justify-center font-mono items-center gap-3">
             <img
               src="./images/director.jpg"
               className="rounded-full h-24 "
+              alt="saneev"
             />
-            <span className="font-extrabold text-2xl text-blue-700">Saneev Kumar Das
+            <span className="font-extrabold font-mono text-2xl text-blue-700">
+              Saneev Kumar Das
             </span>
-            <span className="font-bold font-serif text-lg  text-black">
-              Director of Thinkscript.Org
-              <h1>https://www.linkdin.com/in/gyancodes</h1>
-              <h1>saneevdas.061995@gmail.com</h1>
-              <h1>+91 7978029866</h1>
-            </span>
-            <span className="font-bold font-serif text-lg   text-black">  
-            </span>
+            <span> Director @Thinkscript.Org</span>
+            <span>saneevdas.061995@gmail.com</span>
+            <span className="font-bold font-serif text-lg   text-black"></span>
           </div>
         </div>
 
-      <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-col justify-center items-center mt-24 mb-24 ">
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
+        <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-col justify-center items-center mt-10 mb-14 ">
+          <div className="flex flex-col justify-center font-mono items-center gap-3">
             <img
               src="./images/image.jpg"
               className="rounded-full h-24 "
+              alt="gyan"
             />
-            <span className="font-extrabold text-2xl text-blue-700">Gyan Prakash Tiwari
+            <span className="font-extrabold text-2xl text-blue-700">
+              Gyan Prakash Tiwari
             </span>
-            <span className="font-bold font-serif text-lg  text-black">
-              Founder of Thinkscript.Org
-              <h1>https://www.linkdin.com/in/gyancodes</h1>
-              <h1>gyanprakasheng@gmail.com</h1>
-              <h1>+91 9199071896</h1>
-            </span>
-            <span className="font-bold font-serif text-lg   text-black">  
+            <span>Founder @thinkscript.org</span>
+            <span>gyanprakasheng@gmail.com</span>
+            <span className="flex gap-4">
+              <a
+                href="https://www.linkedin.com/in/gyancodes/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8"
+                >
+                  <title>LinkedIn</title>
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+              <a
+                href="https://github.com/gyancodes"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  role="img"
+                  className="h-8"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+              </a>
             </span>
           </div>
         </div>
 
-        <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-col justify-center items-center mt-24 mb-24 ">
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
+        <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-col justify-center items-center mt-10 mb-12 ">
+          <div className="flex flex-col justify-center font-mono items-center gap-3">
             <img
               src="./images/cofounder.jpg"
               className="rounded-full h-24 "
+              alt="gyan"
             />
-            <span className="font-extrabold text-2xl text-blue-700">Animesh Singh
+            <span className="font-extrabold text-2xl text-blue-700">
+              Animesh Singh
             </span>
-            <span className="font-bold font-serif text-lg  text-black">
-              Co-Founder of Thinkscript.Org
-              <h1>https://www.linkdin.com/in/animesh-singh-2635991b</h1>
-              <h1>csanimeshsingh747@gmail.com</h1>
-              <h1>+91 9661339393</h1>
-            </span>
-            <span className="font-bold font-serif text-lg   text-black">  
+            <span>Co-Founder @thinkscript.org</span>
+            <span>csanimeshsingh747@gmail.com</span>
+            <span className="flex gap-4">
+              <a
+                href="https://www.linkedin.com/in/animesh-singh-2635991b6/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8"
+                >
+                  <title>LinkedIn</title>
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+              <a
+                href="https://github.com/AnimeshSingh747"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  role="img"
+                  className="h-8"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+              </a>
             </span>
           </div>
         </div>
-
-        <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-col justify-center items-center mt-24 mb-24 ">
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
-            <img
-              src="./images/logonew.png"
-              className="rounded-full h-24 "
-            />
-            <span className="font-extrabold text-2xl text-blue-700">Thinkscript Organization
-            </span>
-            <span className="font-bold font-serif text-lg  text-black">
-              Thinkscript.Org
-              <h1>https://www.linkedin.com/company/thinkscript-orgnization/</h1>
-              <h1>thinkscriptorg@gmail.com</h1>
-            </span>
-            <span className="font-bold font-serif text-lg   text-black">  
-            </span>
-          </div>
         </div>
-         
-  </>
-  )
-}
+    </>
+  );
+};
 export default Contact;

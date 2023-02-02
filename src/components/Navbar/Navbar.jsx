@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="px-6 pt-6 lg:px-8">
     <div>
       <nav
-        className="flex h-9 items-center justify-between"
+        className="flex h-10 items-center justify-between"
         aria-label="Global"
       >
         <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
