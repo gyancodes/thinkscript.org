@@ -5,6 +5,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 const navigation = [
+
+
   { name: "About", link: "/about" },
   { name: "Contact", link: "/contact" },
   { name: "Team", link: "/team" },
