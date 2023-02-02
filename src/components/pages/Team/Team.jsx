@@ -9,7 +9,7 @@ const Team = () => {
             Core Team Members
           </h1>
         </div>
-        <div className="flex-col flex gap-14 md:flex-row md:flex sm:flex sm:flex-row justify-center items-center mt-24 mb-24 ">
+        <div className="flex-col flex gap-14 sm:flex sm:flex-col md:flex md:flex-row flex-shrink-0 justify-center items-center mt-24 mb-24 ">
           <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
             <img
               src="./images/image.jpg"
