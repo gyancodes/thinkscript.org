@@ -18,7 +18,7 @@ const Team = () => {
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/image.jpg"
-                className="rounded-full h-auto w-60 max-w-full "
+                className="rounded-full h-auto w-40 max-w-full "
                 alt=""
               />
               <span className="font-extrabold font-serif text-lg   text-black">
@@ -32,7 +32,7 @@ const Team = () => {
             <div className="flex flex-col justify-center items-center gap-3">
               <img
                 src="./images/cofounder.jpg"
-                className="rounded-full h-auto w-60 max-w-full"
+                className="rounded-full h-auto w-40 max-w-full"
                 alt=""
               />
               <span className="font-extrabold font-serif text-lg text-black">
@@ -44,7 +44,7 @@ const Team = () => {
             <div className="flex flex-col justify-center items-center gap-3">
               <img
                 src="./images/director.jpg"
-                className="rounded-full h-auto w-60 max-w-full"
+                className="rounded-full h-auto w-40 max-w-full"
                 alt=""
               />
               <span className="font-extrabold font-serif text-lg   text-black">
@@ -56,7 +56,7 @@ const Team = () => {
             <div className="flex flex-col justify-center items-center gap-3">
               <img
                 src="./images/seniorinstructor.jpg"
-                className="rounded-full h-auto w-60 max-w-full"
+                className="rounded-full h-auto w-40 max-w-full"
                 alt=""
               />
               <span className="font-extrabold font-serif text-lg   text-black">
@@ -77,7 +77,7 @@ const Team = () => {
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/sujata.jpeg"
-                className="rounded-full h-auto w-60 max-w-full "
+                className="rounded-full h-auto w-40 max-w-full "
                 alt=""
               />
               <span className="font-extrabold font-serif text-lg   text-black">
@@ -91,7 +91,7 @@ const Team = () => {
             <div className="flex flex-col justify-center items-center gap-3">
               <img
                 src="./images/rashmi.jpg"
-                className="rounded-full h-auto w-60 max-w-full"
+                className="rounded-full h-auto w-40 max-w-full"
                 alt=""
               />
               <span className="font-extrabold font-serif text-lg text-black">
