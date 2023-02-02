@@ -2,11 +2,9 @@ import React from 'react'
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-router-dom";
+import { Link,} from "react-router-dom";
 
 const navigation = [
-
-
   { name: "About", link: "/about" },
   { name: "Contact", link: "/contact" },
   { name: "Team", link: "/team" },
@@ -54,14 +52,6 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        {/* <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-          <a
-            href="#"
-            className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-          >
-            Log in
-          </a>
-        </div> */}
       </nav>
       <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <Dialog.Panel
@@ -94,23 +84,15 @@ const Navbar = () => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.link}
+                    to={item.link}
                     className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
-              {/* <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
-                >
-                  Log in
-                </a>
-              </div> */}
             </div>
           </div>
         </Dialog.Panel>
