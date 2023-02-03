@@ -28,7 +28,7 @@ const About = () => {
       >
         What is Thinkscript ?
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         Thinkscript is an Open Source Organization that focuses on projects,
         resources, and initiatives that anyone can use, view, and modify. Open
         source software's source code is 'open' and available to the public.
@@ -42,7 +42,7 @@ const About = () => {
       >
         Why OpenSource ?
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         The availability of free software is made possible by open source. This
         is advantageous for computer users who have free alternatives to paid
         software. The concept of open source prevents commercial-only software
@@ -57,7 +57,7 @@ const About = () => {
       >
         Why Collaboration ?
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         Free access to source code that anyone can modify enables a powerful
         collaboration system. Software engineers from all over the world can
         contribute to the creation and improvement of open source projects. New
@@ -73,7 +73,7 @@ const About = () => {
       >
         Long Term Support !
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         Long-term support for the software on which we rely is critical. There
         may be an unhealthy reliance on a single entity to provide support for
         software in a closed-source philosophy, which may end without an
@@ -89,7 +89,7 @@ const About = () => {
       >
         Strenthen skills !
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         Building projects using the open source model offers significant
         advantages in terms of robustness and security. This is a direct result
         of many people coming together to support the validation process, such
@@ -104,7 +104,7 @@ const About = () => {
       >
         How knowledge sharing benificial ?
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         The ability of developers to collaborate as well as produce high-quality
         software is dependent on the freedom of information exchange and the
         sharing of expertise. Knowledge sharing is essential to driving such
@@ -120,7 +120,7 @@ const About = () => {
       >
         How Community benificial ?
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         Open source has evolved into a robust support structure comprised of
         tens of thousands of developers from all around the world. It continues
         to foster a community of engineers who believe that technology can
@@ -135,7 +135,7 @@ const About = () => {
       >
         Endless possibilities
       </h1>
-      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl ml-24 mr-24 font-extralight text-transparent bg-clip-text bg-black">
+      <h1 className="text-1xl mt-10 mb-10 text-center sm:text-2xl p-4 sm:ml-24 sm:mr-24 font-extralight text-transparent bg-clip-text bg-black">
         The existence of innumerable software we have grown to rely on as a
         direct result of the movement demonstrates the movement's strong impact.
         VSCode, Mozilla Firefox, the Linux Kernel, WordPress, brave browser,
