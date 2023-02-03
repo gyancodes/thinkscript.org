@@ -16,7 +16,7 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Services" className="mt-6">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <Link className="text-white transition hover:opacity-75">
+                    <Link className="text-white transition hover:opacity-75" to="/about">
                       About
                     </Link>
                   </li>
