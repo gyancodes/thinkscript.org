@@ -14,7 +14,7 @@ const Team = () => {
             </h1>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4 font-mono">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/image.jpg"
@@ -73,7 +73,7 @@ const Team = () => {
         </h1>
       </div>
         <div className="flex justify-center items-start">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 height mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 height mt-24 px-4 font-mono">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/sujata.jpeg"

@@ -5,13 +5,14 @@ const Home = () => {
   return (
     <>
       <Header />
+
       <div className="flex flex-col justify-center items-center text-center">
         <h1 className="text-4xl  sm:text-center sm:text-8xl font-extrabold text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
           Our Vision
         </h1>
-        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-4 dark:bg-gray-700" />
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-4 dark:bg-gray-700"  />
 
-          <ul className="flex flex-col text-left p-2 sm:p-10 gap-3 text-2xl font-medium text-blue-900">
+          <ul className="flex flex-col  p-2 sm:p-10 gap-3 text-lg font-mono font-medium text-blue-900">
             <li className="flex gap-4 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
