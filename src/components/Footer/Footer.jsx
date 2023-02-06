@@ -22,6 +22,16 @@ const Footer = () => {
                   </li>
                 </ul>
               </nav>
+
+              <nav aria-label="Footer Navigation - Services" className="mt-6">
+                <ul className="space-y-4 text-sm">
+                  <li>
+                    <Link className="text-white transition hover:opacity-75" to="/gallery">
+                      Gallery
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
             </div>
 
             <div className="col-span-2 sm:col-span-1">
