@@ -30,8 +30,7 @@ const Home = () => {
               </svg>
 
               <span>
-                We will make individual aware of new technologies and keys that
-                we can use to develop product.
+                Thinkscript will make individual aware of new technologies and shortcuts to develop the product .
               </span>
             </li>
             <li className="flex gap-4">
@@ -51,8 +50,8 @@ const Home = () => {
               </svg>
 
               <span>
-                We will conduct various events and hackathons which will help to
-                enhance your skills.
+                Thinkscript will conduct various events , hackathons , Talks which will help to
+                enhance the skills.
               </span>
             </li>
             <li className="flex gap-4">
@@ -72,7 +71,7 @@ const Home = () => {
               </svg>
 
               <span>
-                We will provide hand-on-training as well as mentorship and have
+                Thinkscript will provide hand-on-training as well as mentorship and have a
                 great tech community.
               </span>
             </li>
@@ -95,8 +94,7 @@ const Home = () => {
               </svg>
 
               <span>
-                We will provide guidance related to career, Open Source which
-                will help to you get internships and jobs around the world.
+                Thinkscript will guide related to career,that will help you get internships and jobs across the globe.
               </span>
             </li>
           </ul>

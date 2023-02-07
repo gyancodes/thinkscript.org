@@ -7,7 +7,7 @@ const Team = () => {
         <div className="flex justify-center flex-col items-center w-full h-full text-center ">
           <div>
             <h1
-              className="text-4xl mt-24  sm:text-center sm:text-8xl font-medium text-transparent
+              className="text-4xl mt-24  sm:text-center sm:text-6xl font-medium text-transparent
           bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal "
             >
               Core Team Members
@@ -68,7 +68,7 @@ const Team = () => {
         </div>
         <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
         <div className="text-center">
-        <h1 className="text-4xl mt-20  sm:text-center sm:text-8xl font-medium text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
+        <h1 className="text-4xl mt-20  sm:text-center sm:text-6xl font-medium text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
           Our Instructors
         </h1>
       </div>
