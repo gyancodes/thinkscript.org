@@ -16,7 +16,7 @@ const Gallery = () => {
     </div>
           
           
-    <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4 ">
+    <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4 ">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3 ">
               <img
                 src="./images/gallery/1.jpeg "
@@ -54,7 +54,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/10.jpeg "
@@ -92,7 +92,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/14.jpeg "
@@ -130,7 +130,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/19.jpeg "
@@ -168,7 +168,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/25.jpeg "
@@ -206,7 +206,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/33.jpeg "
@@ -244,7 +244,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/38.jpeg "
@@ -282,7 +282,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/46.jpg "
@@ -320,7 +320,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/58.jpg "
@@ -358,7 +358,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/62.jpg "
@@ -396,7 +396,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 height mb-10 mt-24 px-4">
+          <div className="grid grid-cols-1  mb-10 sm:grid-cols-4 gap-8 height mt-24 px-4">
             <div className="flex flex-col sm:flex-col justify-center items-center gap-3">
               <img
                 src="./images/gallery/67.jpg "

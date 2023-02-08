@@ -38,8 +38,9 @@ export default function Header() {
         </div>
 
         <main>
+
           <div className="relative px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl pt-20 pb- sm:pt-48 ">
+            <div className="mx-auto max-w-3xl pt-20 sm:pt-48 ">
               <div>
                 {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -53,10 +54,16 @@ export default function Header() {
                 </div>
               </div> */}
                 <div>
+                {/* <img
+                src="./images/removebg.png"
+                className="rectangle h-auto w-100 max-w-full transform 
+                transition duration-1000 hover:scale-125"
+                alt=''
+              /> */}
                   <h1 className="text-4xl  sm:text-center sm:text-8xl font-extrabold text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
                     Think Different Think Script
                   </h1>
-                  <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center font-mono">
+                  <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center font-mono ">
                     We, as open source community, want to help newcomers get
                     started with open source. We also offer mentorship to
                     individuals in order to assist them acquire practical skills
@@ -84,6 +91,25 @@ export default function Header() {
                   </a>
                 </div> */}
                 </div>
+
+                <div>
+                  <h1 className="text-4xl mt-40 sm:text-center sm:text-8xl font-extrabold text-transparent  
+                  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))]
+                   from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
+                    Events
+                  </h1>
+                  <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center font-mono">
+                  Thinkscript hosts events that are open to everyone. The event will be 
+                  fun and interesting without compromising accuracy. Thinkscript hosts 
+                  a variety of events, hackathons, and Expert Talks to help individuals 
+                  enhance their abilities. Thinkscript also provides practical-oriented 
+                  training along with mentorship, along with a brilliant tech community. Thinkscript 
+                  can provide career advice and guidance that will support you in acquiring internships 
+                  and jobs across the globe. Let's all grow together as we know it's hard to fight alone 
+                  and easy to love alone. So stop struggling in the wrong direction and start working in 
+                  the right way.
+                  </p>
+              </div>
                 <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
                   <svg
                     className="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
