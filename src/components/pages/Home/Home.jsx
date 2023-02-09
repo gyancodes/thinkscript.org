@@ -4,102 +4,38 @@ import Header from "../../Header/Header";
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header />   
 
-      <div className="flex flex-col justify-center items-center text-center">
-        <h1 className="text-4xl  sm:text-center sm:text-8xl font-extrabold text-transparent  bg-clip-text  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-600 via-sky-700 to-violet-400 tracking-normal ">
-          Our Vision
-        </h1>
-        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-4 dark:bg-gray-700"  />
+    <div className="border rounded p-10 my-4 w-70% ml-60 mr-60 mt-10 bg-blue-50 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))]
+                   from-blue-800 via-sky-700 to-violet-500 tracking-normal ">
+      <p className="text-black mb-6 text-lg font-bold md:text-2xl">
+         Want to keep your brain engaged with open source projects ?
+      </p>
+      <p className="text-gray-800 dark:text-gray-400 mb-10 text-base">
+        Enter your email address and you'll be be added to our email newsletter, of which you can opt out any time.
+      </p>
+      <form className="relative my-4">
+        <input
+          aria-label="Email for newsletter"
+          placeholder="thinkscriptorg@email.com"
+          type="email"
+          autoComplete="email"
+          required
+          className="py-4 px-0 text-md bg-transparent w-9/12 text-gray-900 border-b-2 border-gray-600 dark:border-gray-400
+           dark:text-white focus:border-brand focus-visible:outline-none"
+        />
+        <button
+          className=" items-center ml-10 px-4 py-4 mt-4 bg-blue-900  text-white transform 
+          transition duration-1000 hover:scale-75 font-bold text-lg"
+          type="submit">
+          Join Now
+        </button>
+      </form>
+      <p className="text-xl text-violet-300 dark:text-blue-200">
+        538 Members 
+      </p>
+    </div>
 
-          <ul className="flex flex-col  p-2 sm:p-10 gap-3 text-lg font-mono font-medium text-blue-900">
-            <li className="flex gap-4 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6  shrink-0"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
-                />
-              </svg>
-
-              <span>
-                Thinkscript will make individual aware of new technologies and shortcuts to develop the product .
-              </span>
-            </li>
-            <li className="flex gap-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6  shrink-0"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
-                />
-              </svg>
-
-              <span>
-                Thinkscript will conduct various events , hackathons , Talks which will help to
-                enhance the skills.
-              </span>
-            </li>
-            <li className="flex gap-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6  shrink-0"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
-                />
-              </svg>
-
-              <span>
-                Thinkscript will provide hand-on-training as well as mentorship and have a
-                great tech community.
-              </span>
-            </li>
-            <li className="flex gap-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6 shrink-0"
-
-
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
-                />
-              </svg>
-
-              <span>
-                Thinkscript will guide related to career,that will help you get internships and jobs across the globe.
-              </span>
-            </li>
-          </ul>
-
-      </div>
     </>
   );
 };
