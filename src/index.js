@@ -10,7 +10,6 @@ import About from "./components/pages/About/About";
 import Home from "./components/pages/Home/Home";
 import Contact from "./components/pages/contact/Contact";
 import Team from "./components/pages/Team/Team";
-import Gallery from "./components/gallery/Gallery";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,7 +22,6 @@ root.render(
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/team" element={<Team />} />
-      <Route path="/gallery" element={<Gallery />} />
     </Routes>
     <Footer />
   </BrowserRouter>
