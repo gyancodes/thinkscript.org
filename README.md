@@ -1,46 +1,67 @@
-# ThinkScript
+# ThinkScript (Archived)
 
-We, as open source community, want to help newcomers get started with open source. We also offer mentorship to individuals in order to assist them acquire practical skills through hands-on learning experiences. In addition, we organize Hackathons, Events, and Workshops.
+> **📦 Archived as of January 2024**
 
-Visit: https://thikscript.org/
+ThinkScript was an open-source community initiative aimed at empowering newcomers by helping them dive into open-source, learn through hands-on experiences, and grow with the guidance of mentors. Though we officially archived the project in **January 2024**, the impact of our work continues to live on through the developers, teams, and projects we supported.
 
+---
 
-![logo](https://user-images.githubusercontent.com/61907167/213868177-3a9d2a60-ce0c-4120-be91-419c9f13a563.png)
+![ThinkScript Logo](https://user-images.githubusercontent.com/61907167/213868177-3a9d2a60-ce0c-4120-be91-419c9f13a563.png)
 
+## 🌱 Our Community Legacy  
 
+ThinkScript was proudly **the first student-led tech community in our university**, setting a foundation for open learning and collaborative growth. 
 
+We:
 
-## Our Tech stack
+- Helped **newcomers break into open-source** by simplifying the onboarding process.
+- Offered **mentorship programs** to develop practical coding skills and build confidence.
+- Organized **Hackathons, Events, and Workshops** to foster creativity, collaboration, and continuous learning.
+- Created a welcoming, inclusive environment for **learners, developers, designers, and mentors** alike.
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+Even though the platform is no longer active, our mission lives on in the people and projects we've helped launch.
 
+---
 
+## 💻 Our Tech Stack
 
+During our active years, we built projects using:
 
-## 🚀 Getting Started
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+---
 
-### 🧾 Prerequisites
+## 🤝 What We Stood For
 
-Before starting out, you'll need to install the following on your computer.
+- **Community First:** A collaborative, open environment where everyone belonged.
+- **Learning by Doing:** Real projects, real problems, real solutions.
+- **Teamwork:** Cross-functional teams building, learning, and growing together.
+- **Mentorship Culture:** Experienced developers guiding the next generation.
+- **Events & Hackathons:** Fun, challenging, and rewarding learning experiences.
 
-[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
+---
 
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/downloads)
+## 🎉 Special Thanks
 
-[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+None of this would have been possible without the dedication, support, and mentorship of some incredible people. 
 
-### 🛠️ Installation
+A heartfelt thank you to:
 
-1. Fork the repo
-2. Clone the repository `git clone`
-3. Run `npm i` to install all dependencies
-4. Run `npm start` to start the application
-5. Visit `https://localhost:3000` to view the application
+**Animesh**, **Gyan**, **Saneev Sir**, **Rakesh Sir**, **Rashmi Sir**, **Sujata Mam**, **Basir**, and many others who shaped this journey and made ThinkScript a success.
 
+Your guidance and encouragement built a lasting legacy for our university and the students who followed.
+
+---
+
+## 🚀 Final Words
+
+While ThinkScript has now been archived, we encourage everyone to keep building, collaborating, and contributing to open-source projects. The spirit of open learning and community-driven development is timeless.
+
+If you were a part of ThinkScript — whether as a contributor, mentor, or learner — **thank you for being part of our journey**. Keep paying it forward!
+
+---
 
